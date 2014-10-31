@@ -2,6 +2,12 @@
 
 flannel-install is a simple Docker image which installs [flannel](https://github.com/coreos/flannel) and [flannel-route-manager](https://github.com/kelseyhightower/flannel-route-manager) onto your Docker host.
 
+This image is automatically built and provided on the [Docker registry](https://registry.hub.docker.com/u/tomlanyon/flannel-install) so can be pulled as tomlanyon/flannel-install:
+```
+docker pull tomlanyon/flannel-install
+```
+
+
 ## Use
 
 flannel-install's intended purpose is to install the flannel tools on a [CoreOS](http://coreos.com) host.
